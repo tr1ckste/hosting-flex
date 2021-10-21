@@ -1,0 +1,58 @@
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --main-width: 1200px;
+}
+
+.flex {
+  display: flex;
+}
+
+header {
+  justify-content: center;
+  height: 80px;
+}
+
+.header-container {
+  justify-content: space-between;
+  width: var(--main-width);
+  height: 100%;
+  align-items: center;
+}
+
+nav {
+  width: 1000px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav > a, nav > div {
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  margin: 0 8px;
+  color: black;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  text-decoration-color: #B00000;
+}
+
+.stick {
+  width: 1px;
+  background: #DAD8D8;
+  height: 30px;
+  margin: 0 10px;
+}
+
